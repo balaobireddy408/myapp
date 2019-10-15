@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+/****************************************
+   1.2 Body styles
+****************************************/
+::selection {
+    background-color: #f08200;
+    color: #ffffff;
+}
+
+body {
+    font-family: "open_sansregular", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+    body.agility-illus-bg .section-start {
+        background-position: center bottom, center top;
+        background-repeat: no-repeat, no-repeat;
+        background-color: #f6f6f6;
+        padding-bottom: 200px;
+    }
+
+    body.agility-quote-bg .section-start {
+        background-image: url("../images/Artboard1.svg"), url("../images/background/quote-bg-2.svg");
+    }
+
+    body.agility-book-bg .section-start {
+        background-image: url("../images/Artboard1.svg"), url("../images/background/bookings_bg.svg");
+    }
+
+    body.agility-track-bg .section-start {
+        background-image: url("../images/Artboard1.svg"), url("../images/background/trackin-bg.svg");
+    }
+
+    body.agility-profile-bg .section-start {
+        background-image: url("../images/Artboard1.svg"), url("../images/background/Profile_bg.svg");
+    }
+
+    body.agility-other-pages-bg .section-start {
+        background-image: url("../images/Artboard1.svg"), url("../images/background/Lines-texture-bg.svg");
+        background-repeat: repeat no-repeat;
+    }
+
+    body.signup-bg {
+        background: url("../images/pattern.png") #f6f6f6;
+    }
+
+        body.signup-bg .section-start {
+            background: transparent;
+        }
+
+.termshead {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.section-start {
+    padding-top: 50px;
+}
+
+.form-group .selectize-dropdown [data-selectable] .highlight {
+    background: none;
+}
+
+input[type="text"] {
+    cursor: pointer;
+}
+
+.line-height-one {
+    line-height: 1;
+}
+
+.white-bg {
+    background-color: #e5dede;
+}
